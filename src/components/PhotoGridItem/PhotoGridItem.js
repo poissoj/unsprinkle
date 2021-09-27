@@ -1,5 +1,6 @@
-import React from 'react';
-import styled from 'styled-components/macro';
+import React from "react";
+import styled from "styled-components/macro";
+import { ResponsiveImage } from "../ResponsiveImage/ResponsiveImage";
 
 const PhotoGridItem = ({ id, src, alt, tags }) => {
   return (
@@ -22,7 +23,7 @@ const Anchor = styled.a`
   outline-offset: 4px;
 `;
 
-const Image = styled.img`
+const Image = styled(ResponsiveImage)`
   display: block;
   width: 100%;
   height: 300px;
