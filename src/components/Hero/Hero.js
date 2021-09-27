@@ -5,8 +5,8 @@ import { ResponsiveImage } from "../ResponsiveImage/ResponsiveImage";
 const Hero = () => {
   return (
     <Wrapper>
-      <HeroImage src="/images/hero-img.jpg" />
-      <Swoop src="/swoop.svg" />
+      <HeroImage src="/images/hero-img.jpg" alt="A grey-eyed cat" />
+      <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
 };
